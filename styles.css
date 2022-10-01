@@ -1,0 +1,105 @@
+
+
+
+
+body {
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px rgb(97, 70, 70);
+}
+
+/*
+Challenge:
+Set the width of the image to 150px.
+PS: Use a class to select the img element.
+*/
+.avatar {
+    width: 150px;
+    border-radius: 7px;
+}
+
+/*
+Challenge:
+1. Give the card div a class (name it "card")
+2. Select the card class and give it a dotted blue border
+3. Add 20 pixels of padding on all sides of the card
+*/
+.card {
+    /*
+    Challenge:
+    Give the card a width of 400px wide and center it.
+    */
+    width: 400px;
+
+        /* 
+    Challenge:
+    Replace the two margin properties with a 
+    single margin shorthand.
+    */
+    margin: 0 auto;
+    
+    padding: 20px;
+    display: flex;
+
+    /*
+    Challenge:
+    Add horizontal space around the flex children.
+    Hint: google "justify content"
+    */
+    justify-content: space-around;
+
+    /*
+    Challenge:
+    Center the text in the <p> and <h4> elements.
+
+    Note: you should only add ONE property, as inheritance 
+    should take care of applying it to both elements.
+    */
+    text-align: center;
+        /* 
+    Challenge:
+    Add colors to the card according to the design.
+    black - #2b2839 (the text color)
+    blue - #ddebf8
+    purple - #d8cefe
+    */
+    border-bottom: 7px solid #e76f51;
+    color: #e5e3dc;
+    background-color: #264653;
+
+        /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+    
+    
+
+}
+
+/*
+Challenge:
+Create a utility class for the dotted blue border.
+Give the class to both flexbox children in the HTML.
+*/
+.border-blue {
+    border: 1px dotted blue;
+}
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
+/*
+Final challenge:
+Download the code to your local computer and place it
+in a folder called "business-card"
+*/
